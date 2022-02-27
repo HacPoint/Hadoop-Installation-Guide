@@ -4,6 +4,8 @@
 
 ## 1. Copy Files to Namenode Filesystem
 
+ `cd $HADOOP_HOME/bin`
+
 ### Create a directory in hadoop filesystem.
 
 `hdfs dfs -mkdir -p /user/hadoop/input`
